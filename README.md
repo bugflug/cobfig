@@ -1,6 +1,7 @@
-### cobfig is a **highly opinionated** tf2 config focused on **performance**, **reliability**, **quality of life** and the **charm of tf2**.
+### cobfig is a `highly opinionated` tf2 config focused on `performance`, `reliability`, `quality of life` and the `charm of tf2`.
 
 **what is cobfig good for?** performance enhancements, quality-of-life features, simplistic code, and keeping the charm of tf2. if you're just starting tf2 or want a simple config you won't have to mess with much, cobfig could work for you!
+
 **what is cobfig NOT good for?** flexability, toaster/competitive performance, visual quality, and polish. cobfig is tailored around what *i want*. if you want something that'll give you insane performance, great graphics, or offer you tons of customization, you should check out *mastercomfig* or *cfg.tf*.
 
 ---
