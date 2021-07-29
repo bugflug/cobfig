@@ -4,10 +4,13 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 cd "$SCRIPT_DIR/.."
 
-# move the custom files into the settings defaults
+# backup our own custom shit and instead
+# copy the default settings into custom for
+# end-user purposes
 echo ""
-echo "copying cfg/custom to modules/settings/defaults:"
-cp -r ./cfg/custom/* ./cfg/modules/settings/defaults
+echo "moving custom settings and faking the defaults:"
+cp -r ./cfg/custom ./cfg/custom-bak
+cp -r ./cfg/modules/settings/default/* ./cfg/custom
 
 echo ""
 echo "ignored:"
@@ -23,3 +26,8 @@ git commit
 echo ""
 echo "pushing to remote:"
 git push
+
+# undo the copying nonsense
+echo ""
+echo "unfaking defaults and putting custom settings back:"
+mv ./cfg/custom-bak ./cfg/custom
