@@ -10,6 +10,7 @@ cd "$SCRIPT_DIR/.."
 echo ""
 echo "moving custom settings and faking the defaults:"
 cp -r ./cfg/custom ./cfg/custom-bak
+rm -r ./cfg/custom
 cp -r ./cfg/modules/settings/default ./cfg/custom
 
 echo ""
