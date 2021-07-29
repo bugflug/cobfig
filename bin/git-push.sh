@@ -30,4 +30,5 @@ git push
 # undo the copying nonsense
 echo ""
 echo "unfaking defaults and putting custom settings back:"
+rm -r ./cfg/custom
 mv ./cfg/custom-bak ./cfg/custom
