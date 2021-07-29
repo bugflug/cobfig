@@ -20,6 +20,7 @@ git check-ignore **/*
 echo ""
 echo "adding all changed files:"
 git add -u .
+git add ./cfg/custom/*
 echo ""
 echo "making commit:"
 git commit
