@@ -1,5 +1,5 @@
 # ignore everything
-/**
+/*
 
 # general whitelist files
 !/.gitignore
@@ -8,7 +8,7 @@
 # 1. unignore custom
 !/custom/
 # 2. ignore everything in custom
-/custom/**
+/custom/*
 # 3. unignore custom/cobfig
 !/custom/cobfig/
 /custom/cobfig/sound/
