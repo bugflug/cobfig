@@ -1,2 +1,14 @@
-/cfg/custom-bak/
-/sound/
+# ignore everything
+/**
+
+# general whitelist files
+!/.gitignore
+!/README.md
+
+# 1. unignore custom
+!/custom/
+# 2. ignore everything in custom
+/custom/**
+# 3. unignore custom/cobfig
+!/custom/cobfig/
+/custom/cobfig/sound/
