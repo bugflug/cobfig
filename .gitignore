@@ -11,4 +11,23 @@
 /custom/*
 # 3. unignore custom/cobfig
 !/custom/cobfig/
+# 4. reignore the sound folder
 /custom/cobfig/sound/
+
+# 1. unignore cfg
+!/cfg/
+# 2. ignore everything in cfg
+/cfg/*
+# 3. unignore relevant files
+!/cfg/controls.cfg
+!/cfg/settings.cfg
+!/cfg/user_demoman.cfg
+!/cfg/user_engineer.cfg
+!/cfg/user_heavyweapons.cfg
+!/cfg/user_medic.cfg
+!/cfg/user_pyro.cfg
+!/cfg/user_scout.cfg
+!/cfg/user_sniper.cfg
+!/cfg/user_soldier.cfg
+!/cfg/user_spy.cfg
+!/cfg/user.cfg
