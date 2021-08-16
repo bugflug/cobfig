@@ -11,8 +11,9 @@
 /custom/*
 # 3. unignore custom/cobfig
 !/custom/cobfig/
-# 4. reignore the sound folder
+# 4. reignore some shit
 /custom/cobfig/sound/
+/custom/cobfig.vpk
 
 # 1. unignore cfg
 !/cfg/
