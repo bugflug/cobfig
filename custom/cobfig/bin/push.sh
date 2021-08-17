@@ -15,7 +15,7 @@ cp -r ./custom/cobfig/cfg/modules/settings/defaults ./cfg
 
 # make the commit and push it
 echo "push > adding all changed files and cfg files..."
-git add .
+git add -u .
 git add ./cfg/*
 echo "push > making commit..."
 git commit
