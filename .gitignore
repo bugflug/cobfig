@@ -25,13 +25,13 @@
 # 3. unignore relevant files
 !/cfg/controls.cfg
 !/cfg/settings.cfg
-!/cfg/user_demoman.cfg
-!/cfg/user_engineer.cfg
-!/cfg/user_heavyweapons.cfg
-!/cfg/user_medic.cfg
-!/cfg/user_pyro.cfg
-!/cfg/user_scout.cfg
-!/cfg/user_sniper.cfg
-!/cfg/user_soldier.cfg
-!/cfg/user_spy.cfg
-!/cfg/user.cfg
+!/cfg/settings_demoman.cfg
+!/cfg/settings_engineer.cfg
+!/cfg/settings_heavyweapons.cfg
+!/cfg/settings_medic.cfg
+!/cfg/settings_pyro.cfg
+!/cfg/settings_scout.cfg
+!/cfg/settings_sniper.cfg
+!/cfg/settings_soldier.cfg
+!/cfg/settings_spy.cfg
+!/cfg/settings.cfg
